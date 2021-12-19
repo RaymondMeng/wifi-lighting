@@ -1,0 +1,21 @@
+Added Component: Designator=SP1(M3x4+6_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "封装库来自淘宝 ID：黄晶宝石"; VariantName = "[No Variations]"
+Added Component: Designator=SP2(M3x4+6_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "封装库来自淘宝 ID：黄晶宝石"; VariantName = "[No Variations]"
+Added Component: Designator=SP3(M3x4+6_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "封装库来自淘宝 ID：黄晶宝石"; VariantName = "[No Variations]"
+Added Component: Designator=SP4(M3x4+6_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "铜柱"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "封装库来自淘宝 ID：黄晶宝石"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=51main Member=Component SP1 M3铜柱
+Added Member To Class: ClassName=51main Member=Component SP2 M3铜柱
+Added Member To Class: ClassName=51main Member=Component SP3 M3铜柱
+Added Member To Class: ClassName=51main Member=Component SP4 M3铜柱
+Added Room: Name=51main

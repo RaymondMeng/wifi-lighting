@@ -1,0 +1,16 @@
+Change Net Name : Old Net Name=P30 New Net Name=RXD
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Net: Name=NetLED1_2
+Added Pin To Net: NetName=NetLED1_3 Pin=LED1-3
+Added Net: Name=NetLED1_3
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetLED2_2 Pin=LED2-2
+Added Net: Name=NetLED2_2
+Added Pin To Net: NetName=NetLED2_3 Pin=LED2-3
+Added Net: Name=NetLED2_3
+Added Pin To Net: NetName=TXD Pin=Q1-2
+Added Pin To Net: NetName=TXD Pin=U2-3
+Added Net: Name=TXD

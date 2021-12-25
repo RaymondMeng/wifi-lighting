@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=E1 Old Footprint=CM A(3*5.4) New Footprint=CM B(4*5.4)
+Change Component Footprint: Designator=E3 Old Footprint=CM A(3*5.4) New Footprint=CM B(4*5.4)
+Change Component Footprint: Designator=E4 Old Footprint=CM A(3*5.4) New Footprint=CM B(4*5.4)
+Added Member To Class: ClassName=51main Member=Component R10 2K
+Added Room: Name=51main

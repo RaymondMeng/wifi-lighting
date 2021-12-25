@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=E2 Old Footprint=CM A(3*5.4) New Footprint=CM C(5*5.4)
+Change Component Designator: OldDesignator= NewDesignator=C7
+Change Component Designator: OldDesignator=                              NewDesignator=C8
+Change Component Designator: OldDesignator=                                                                                       NewDesignator=C9
+Change Component Designator: OldDesignator=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  NewDesignator=C10
+Change Component Designator: OldDesignator=  NewDesignator=Q2
+Change Component Designator: OldDesignator= NewDesignator=R1
+Change Component Designator: OldDesignator=  NewDesignator=R10
+Added Member To Class: ClassName=51main Member=Component Q2 SS8050
+Added Member To Class: ClassName=51main Member=Component R1 1K
+Added Room: Name=51main

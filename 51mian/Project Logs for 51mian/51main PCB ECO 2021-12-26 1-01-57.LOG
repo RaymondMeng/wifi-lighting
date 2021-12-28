@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=+5 Pin=C3-2
+Removed Pin From Net: NetName=+5 Pin=D1-1
+Removed Pin From Net: NetName=+5 Pin=D2-2
+Removed Pin From Net: NetName=+5 Pin=E3-1
+Removed Pin From Net: NetName=+5 Pin=U2-16
+Change Component Comment : Designator=R15 Old Comment=5K New Comment=10K
+Added Component: Designator=D4(0805D)
+Added Component: Designator=R14(R 0805_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装库来自淘宝卖家 ID：黄晶宝石"; Value = "其他店铺购入均为盗版，不享受售后技术支持服务，请立即申请退款"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "来自淘宝 ID：黄晶宝石"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "联系售后"; Value = "https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Added Component: Designator=S2(MSK-12C01-07)
+Add component (AddParameter): Name = "BOM名称"; Value = "波动开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "封装库来自淘宝 ID：黄晶宝石"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=D4-1
+Added Pin To Net: NetName=GND Pin=JP1-3
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=+5 Pin=S2-1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=E3-1
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=S2-3
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=R14-2
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=VCC Pin=D2-2
+Added Pin To Net: NetName=VCC Pin=S2-2
+Added Pin To Net: NetName=VCC Pin=U2-16
+Added Net: Name=VCC
+Added Member To Class: ClassName=51main Member=Component D4 LED
+Added Member To Class: ClassName=51main Member=Component R14 1K
+Added Member To Class: ClassName=51main Member=Component S2 SS-12F23
+Added Room: Name=51main

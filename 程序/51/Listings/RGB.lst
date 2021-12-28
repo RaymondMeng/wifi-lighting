@@ -1,0 +1,79 @@
+C51 COMPILER V9.60.0.0   RGB                                                               12/29/2021 02:35:21 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE RGB
+OBJECT MODULE PLACED IN .\Objects\RGB.obj
+COMPILER INVOKED BY: C:\Data_Disk\keil5_C51+MDK\MDK\C51\BIN\C51.EXE RGB.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PR
+                    -INT(.\Listings\RGB.lst) TABS(2) OBJECT(.\Objects\RGB.obj)
+
+line level    source
+
+   1          #include "RGB.h"
+   2          #include "wifi.h"
+   3          //P22到P27
+   4          //    右边            左边
+   5          //P24 P23 P22      P27 P26 P25
+   6          // R   G   B        R   G   B
+   7          struct pwm pwm_l = {0, 0, 0};
+   8          struct pwm pwm_r = {0, 0, 0};
+   9          
+  10          
+  11          void RGBInit()
+  12          {
+  13   1        //初始状态：两个灯亮白色
+  14   1        //设定pwm比较值
+  15   1        pwm_l.r = 20;
+  16   1        pwm_l.g = 50;
+  17   1        pwm_l.b = 80;
+  18   1        
+  19   1        pwm_r.r = 20;
+  20   1        pwm_r.g = 50;
+  21   1        pwm_r.b = 80;
+  22   1        
+  23   1      }
+  24          
+  25          void rgb() interrupt 1 //0.2ms进一次中断
+  26          {
+  27   1        static unsigned char cnt = 0;
+  28   1        static unsigned int count = 0;
+  29   1        TH0 = 0x0FF; //设置初值
+  30   1        TL0 = 0x38;
+  31   1        
+  32   1        count++;
+  33   1        cnt++;
+  34   1        
+  35   1        if(cnt == 100)
+  36   1          cnt = 0;
+  37   1        if(count == 500) //100ms发送一次
+  38   1        {
+  39   2           count = 0;
+  40   2           //Send_Str(unsigned char* fun); 发送温湿度传感器信息
+  41   2        }
+  42   1        R1 = cnt < pwm_l.r ? 1 : 0;
+  43   1        G1 = cnt < pwm_l.g ? 1 : 0;
+  44   1        B1 = cnt < pwm_l.b ? 1 : 0;
+  45   1        R2 = cnt < pwm_r.r ? 1 : 0;
+  46   1        G2 = cnt < pwm_r.g ? 1 : 0;
+  47   1        B2 = cnt < pwm_r.b ? 1 : 0;  
+  48   1      //  if(count == 5000)
+  49   1      //  {
+  50   1      //    count = 0;
+  51   1      //    Send_Uart(0xf0);
+  52   1      //  }
+  53   1      }
+
+C51 COMPILER V9.60.0.0   RGB                                                               12/29/2021 02:35:21 PAGE 2   
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    140    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      9    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

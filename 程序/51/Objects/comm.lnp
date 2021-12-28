@@ -1,0 +1,6 @@
+".\Objects\STARTUP.obj",
+".\Objects\wifi.obj",
+".\Objects\DHT11.obj",
+".\Objects\RGB.obj" 
+TO ".\Objects\comm" 
+PRINT(".\Listings\comm.m51") RAMSIZE(256) 
